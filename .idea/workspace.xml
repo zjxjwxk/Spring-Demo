@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b9824a3-1521-42ac-a1cb-4ce638777cb2" name="Default" comment="Spring Demo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/imooc/ioc/injection/service/InjectionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/ioc/injection/service/InjectionServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/resources/spring-beanscope.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/spring-beanscope.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/imooc/bean/BeanScopeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/imooc/bean/BeanScopeTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,29 +33,29 @@
           <entry key="SpringLocalModels/module=Spring" value="1" />
           <entry key="class" value="2" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="13" />
-          <entry key="xml" value="5" />
+          <entry key="java" value="15" />
+          <entry key="xml" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="15" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="5" />
+          <entry key="XML" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="40" />
+          <entry key="java" value="41" />
           <entry key="txt" value="11" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="41" />
           <entry key="PLAIN_TEXT" value="11" />
           <entry key="XML" value="1" />
         </counts>
@@ -63,15 +64,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/imooc/ioc/interfaces/OneInterfaceImplTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/imooc/ioc/injection/dao/InjectionDAO.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -121,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/imooc/ioc/injection/service/InjectionServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="511">
@@ -130,20 +122,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/spring-aware.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/com/imooc/bean/BeanScopeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/ioc/interfaces/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="453">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
             </state>
           </provider>
         </entry>
@@ -151,12 +134,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/com/imooc/base/UnitTestBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
+            <state relative-caret-position="261">
+              <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
               <folding>
                 <element signature="e#439#440#0" expanded="true" />
                 <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#935#965#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/bean/BeanScope.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="174">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#72#73#0" expanded="true" />
+                <element signature="e#142#143#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/spring-beanscope.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="203">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
             </state>
           </provider>
         </entry>
@@ -187,7 +193,6 @@
         <option value="$PROJECT_DIR$/src/test/com/imooc/ioc/interfaces/OneInterfaceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/imooc/ioc/injection/service/InjectionServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/bean/BeanScope.java" />
-        <option value="$PROJECT_DIR$/src/test/com/imooc/bean/BeanScopeTest.java" />
         <option value="$PROJECT_DIR$/src/resources/spring-lifecycle.xml" />
         <option value="$PROJECT_DIR$/src/test/com/imooc/lifecycle/BeanLifeCycleTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/imooc/aware/MoocApplicationContextTest.java" />
@@ -212,7 +217,6 @@
         <option value="$PROJECT_DIR$/src/resources/spring-autowiring.xml" />
         <option value="$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInvoker.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/ioc/injection/dao/InjectionDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/resources/spring-beanscope.xml" />
         <option value="$PROJECT_DIR$/src/com/imooc/lifecycle/BeanLifeCycle.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/aware/MoocApplicationContext.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/ioc/interfaces/OneInterface.java" />
@@ -221,6 +225,8 @@
         <option value="$PROJECT_DIR$/src/resources/spring-aware.xml" />
         <option value="$PROJECT_DIR$/src/resources/spring-injection.xml" />
         <option value="$PROJECT_DIR$/src/com/imooc/ioc/injection/service/InjectionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/resources/spring-beanscope.xml" />
+        <option value="$PROJECT_DIR$/src/test/com/imooc/bean/BeanScopeTest.java" />
       </list>
     </option>
   </component>
@@ -265,6 +271,13 @@
               <item name="Spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
@@ -316,6 +329,13 @@
               <item name="Spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="ioc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,10 +362,10 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533903581056" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1533905952059" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
@@ -371,7 +391,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.InjectionServiceImplTest.testCons">
+  <component name="RunManager" selected="JUnit.BeanScopeTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -384,16 +404,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InjectionServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="BeanScopeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.com.imooc.ioc.injection.service.*" />
+          <option name="PATTERN" value="test.com.imooc.bean.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.com.imooc.ioc.injection.service" />
-      <option name="MAIN_CLASS_NAME" value="test.com.imooc.ioc.injection.service.InjectionServiceImplTest" />
+      <option name="PACKAGE_NAME" value="test.com.imooc.bean" />
+      <option name="MAIN_CLASS_NAME" value="test.com.imooc.bean.BeanScopeTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanScopeTest.testSay" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.imooc.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.imooc.bean" />
+      <option name="MAIN_CLASS_NAME" value="test.com.imooc.bean.BeanScopeTest" />
+      <option name="METHOD_NAME" value="testSay" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeanScopeTest.testSay2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.imooc.bean.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.imooc.bean" />
+      <option name="MAIN_CLASS_NAME" value="test.com.imooc.bean.BeanScopeTest" />
+      <option name="METHOD_NAME" value="testSay2" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -433,38 +487,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OneInterfaceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.imooc.ioc.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.com.imooc.ioc.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="test.com.imooc.ioc.interfaces.OneInterfaceImplTest" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneInterfaceImplTest.testHello" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.imooc.ioc.interfaces.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.com.imooc.ioc.interfaces" />
-      <option name="MAIN_CLASS_NAME" value="test.com.imooc.ioc.interfaces.OneInterfaceImplTest" />
-      <option name="METHOD_NAME" value="testHello" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -480,19 +502,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.OneInterfaceImplTest.testHello" />
-      <item itemvalue="JUnit.OneInterfaceImplTest" />
-      <item itemvalue="JUnit.InjectionServiceImplTest" />
       <item itemvalue="JUnit.InjectionServiceImplTest.testSetter" />
       <item itemvalue="JUnit.InjectionServiceImplTest.testCons" />
+      <item itemvalue="JUnit.BeanScopeTest.testSay" />
+      <item itemvalue="JUnit.BeanScopeTest.testSay2" />
+      <item itemvalue="JUnit.BeanScopeTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BeanScopeTest" />
+        <item itemvalue="JUnit.BeanScopeTest.testSay" />
+        <item itemvalue="JUnit.BeanScopeTest.testSay2" />
         <item itemvalue="JUnit.InjectionServiceImplTest.testCons" />
         <item itemvalue="JUnit.InjectionServiceImplTest.testSetter" />
-        <item itemvalue="JUnit.InjectionServiceImplTest" />
-        <item itemvalue="JUnit.OneInterfaceImplTest" />
-        <item itemvalue="JUnit.OneInterfaceImplTest.testHello" />
       </list>
     </recent_temporary>
   </component>
@@ -526,7 +548,7 @@
       <workItem from="1533646359526" duration="4101000" />
       <workItem from="1533738870823" duration="1959000" />
       <workItem from="1533816929312" duration="2127000" />
-      <workItem from="1533901962549" duration="1603000" />
+      <workItem from="1533901962549" duration="3720000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Demo">
       <created>1533739607605</created>
@@ -539,24 +561,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InjectionServiceImplTest_testSetter - 2018.08.10 at 20h 02m 19s.xml">
-      <configuration name="InjectionServiceImplTest.testSetter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InjectionServiceImplTest_testSetter - 2018.08.10 at 20h 02m 33s.xml">
-      <configuration name="InjectionServiceImplTest.testSetter" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InjectionServiceImplTest_testCons - 2018.08.10 at 20h 04m 07s.xml">
-      <configuration name="InjectionServiceImplTest.testCons" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InjectionServiceImplTest - 2018.08.10 at 20h 04m 23s.xml">
-      <configuration name="InjectionServiceImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InjectionServiceImplTest - 2018.08.10 at 20h 05m 05s.xml">
-      <configuration name="InjectionServiceImplTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="InjectionServiceImplTest_testSetter - 2018.08.10 at 20h 05m 23s.xml">
-      <configuration name="InjectionServiceImplTest.testSetter" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="InjectionServiceImplTest_testCons - 2018.08.10 at 20h 05m 27s.xml">
       <configuration name="InjectionServiceImplTest.testCons" configurationId="JUnit" />
     </history-entry>
@@ -569,9 +573,27 @@
     <history-entry file="InjectionServiceImplTest_testCons - 2018.08.10 at 20h 08m 26s.xml">
       <configuration name="InjectionServiceImplTest.testCons" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="BeanScopeTest_testSay - 2018.08.10 at 20h 41m 25s.xml">
+      <configuration name="BeanScopeTest.testSay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanScopeTest_testSay2 - 2018.08.10 at 20h 41m 40s.xml">
+      <configuration name="BeanScopeTest.testSay2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanScopeTest_testSay - 2018.08.10 at 20h 41m 46s.xml">
+      <configuration name="BeanScopeTest.testSay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanScopeTest - 2018.08.10 at 20h 41m 51s.xml">
+      <configuration name="BeanScopeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanScopeTest_testSay - 2018.08.10 at 20h 50m 16s.xml">
+      <configuration name="BeanScopeTest.testSay" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BeanScopeTest - 2018.08.10 at 20h 50m 22s.xml">
+      <configuration name="BeanScopeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82294000" />
+    <option name="totallyTimeSpent" value="84411000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
@@ -587,7 +609,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978678" weight="0.27745664" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4978678" visible="true" weight="0.3052023" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -595,7 +617,7 @@
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32947975" />
       <window_info anchor="bottom" id="JRebel Executor" order="11" />
       <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.5021322" side_tool="true" weight="0.3626493" />
       <window_info anchor="bottom" id="Messages" order="13" weight="0.32947975" />
@@ -750,27 +772,6 @@
     </entry>
     <entry file="jar://$USER_HOME$/.ideaLibSources/spring-core-4.3.16.RELEASE-sources.jar!/org/springframework/util/StringUtils.java" />
     <entry file="jar://$USER_HOME$/.ideaLibSources/spring-context-4.3.16.RELEASE-sources.jar!/org/springframework/context/support/AbstractApplicationContext.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/bean/BeanScope.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/spring-beanscope.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/bean/BeanScopeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/spring-lifecycle.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
@@ -902,17 +903,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/base/UnitTestBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="22" column="54" selection-start-line="22" selection-start-column="54" selection-end-line="22" selection-end-column="54" />
-          <folding>
-            <element signature="e#439#440#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/imooc/ioc/interfaces/OneInterfaceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -963,6 +953,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="511">
           <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/base/UnitTestBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="39" column="12" lean-forward="true" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
+          <folding>
+            <element signature="e#439#440#0" expanded="true" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#935#965#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/bean/BeanScope.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#72#73#0" expanded="true" />
+            <element signature="e#142#143#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/spring-beanscope.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/bean/BeanScopeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="453">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
         </state>
       </provider>
     </entry>

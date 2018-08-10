@@ -30,10 +30,10 @@ public void testSay() throws Exception {
 }
 
     @Test
-    public void testSay2() throws Exception {
+public void testSay2() throws Exception {
 //TODO: Test goes here...
-        BeanScope beanScope = super.getBean("beanScope");
-        beanScope.say();
-    }
+    BeanScope beanScope = super.getBean("beanScope");
+    beanScope.say();
+}
 
 } 

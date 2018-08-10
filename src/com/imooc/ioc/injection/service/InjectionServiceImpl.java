@@ -12,9 +12,9 @@ public class InjectionServiceImpl implements InjectionService{
     }
 
     //设值注入
-    public void setInjectionDAO(InjectionDAO injectionDAO) {
-        this.injectionDAO = injectionDAO;
-    }
+//    public void setInjectionDAO(InjectionDAO injectionDAO) {
+//        this.injectionDAO = injectionDAO;
+//    }
 
     public void save(String arg){
         //模拟业务操作
