@@ -15,9 +15,9 @@ import test.com.imooc.base.UnitTestBase;
 */ 
 public class MoocApplicationContextTest extends UnitTestBase{
 
-    public MoocApplicationContextTest(){
-        super("resources/spring-aware.xml");
-    }
+public MoocApplicationContextTest(){
+    super("resources/spring-aware.xml");
+}
 /** 
 * 
 * Method: setApplicationContext(ApplicationContext applicationContext) 
