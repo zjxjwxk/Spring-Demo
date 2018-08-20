@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/test/com/imooc/autowiring/AutoWiringServiceTest.java" line="24" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2b9824a3-1521-42ac-a1cb-4ce638777cb2" name="Default" comment="Spring Demo">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="2b9824a3-1521-42ac-a1cb-4ce638777cb2" name="Default" comment="Spring Demo" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,17 +16,17 @@
     <session id="-370981363">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="3" />
-          <entry key="project.open.time.12" value="2" />
+          <entry key="project.open.time.12" value="3" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -232,6 +230,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -293,8 +293,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -493,6 +491,7 @@
       <workItem from="1534601006716" duration="67000" />
       <workItem from="1534604885039" duration="165000" />
       <workItem from="1534683802760" duration="7000" />
+      <workItem from="1534780844928" duration="24000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Demo">
       <created>1533739607605</created>
@@ -537,7 +536,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93265000" />
+    <option name="totallyTimeSpent" value="93289000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -552,7 +551,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23560767" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23827292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
