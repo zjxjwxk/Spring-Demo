@@ -5,6 +5,6 @@
 
     <bean id="moocApplicationContext" class="com.imooc.aware.MoocApplicationContext"></bean>
 
-    <!--<bean id="moocBeanName" class="com.imooc.aware.MoocBeanName"></bean>-->
+    <bean id="moocBeanName" class="com.imooc.aware.MoocBeanName"></bean>
 
 </beans>

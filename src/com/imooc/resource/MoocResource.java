@@ -17,6 +17,8 @@ public class MoocResource implements ApplicationContextAware{
     }
 
     public void resource() throws IOException {
+//        Resource resource = applicationContext.getResource("classpath:config.txt");
+//        Resource resource = applicationContext.getResource("file:D:\\Documents\\IdeaProjects\\Spring\\src\\resources\\config.txt");
         Resource resource = applicationContext.getResource("config.txt");
         System.out.println(resource.getFilename());
         System.out.println(resource.contentLength());

@@ -6,6 +6,8 @@ import org.junit.Before;
 import org.junit.After;
 import test.com.imooc.base.UnitTestBase;
 
+import java.io.IOException;
+
 /** 
 * MoocResource Tester. 
 * 
@@ -25,10 +27,14 @@ public class MoocResourceTest extends UnitTestBase{
 * 
 */ 
 @Test
-public void testResource() throws Exception { 
+public void testResource(){
 //TODO: Test goes here...
     MoocResource resource = super.getBean("moocResource");
-    resource.resource();
+    try {
+        resource.resource();
+    } catch (IOException e) {
+        e.printStackTrace();
+    }
 } 
 
 
