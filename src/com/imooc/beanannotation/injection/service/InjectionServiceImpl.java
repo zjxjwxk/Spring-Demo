@@ -7,11 +7,12 @@ import org.springframework.stereotype.Service;
 @Service
 public class InjectionServiceImpl implements InjectionService {
 
+    //成员变量注入
 //    @Autowired
     private InjectionDAO injectionDAO;
 
     //构造器注入
-    @Autowired
+//    @Autowired
     public InjectionServiceImpl(InjectionDAO injectionDAO){
         this.injectionDAO = injectionDAO;
     }

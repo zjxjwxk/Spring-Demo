@@ -21,8 +21,11 @@ public class BeanAnnotationTest extends UnitTestBase{
 
     @Test
     public void testSay(){
-        BeanAnnotation beanAnnotation = super.getBean("bean");
+        BeanAnnotation beanAnnotation = super.getBean("beanAnnotation");
         beanAnnotation.say("This is test");
+
+//        beanAnnotation = super.getBean("bean");
+//        beanAnnotation.say("This is test");
     }
 
     @Test
