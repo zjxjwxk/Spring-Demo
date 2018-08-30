@@ -18,7 +18,7 @@ public class BeanInvoker {
     private Map<String, BeanInterface> map;
 
     @Autowired
-    @Qualifier("beanImplOne")
+    @Qualifier("beanImplTwo")
     private BeanInterface beanInterface;
 
     public void say(){

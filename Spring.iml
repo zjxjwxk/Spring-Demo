@@ -6,6 +6,12 @@
         <fileset id="fileset" name="Spring Ioc" removed="false">
           <file>file://$MODULE_DIR$/src/resources/spring-ioc.xml</file>
           <file>file://$MODULE_DIR$/src/resources/spring-beanannotation.xml</file>
+          <file>file://$MODULE_DIR$/src/resources/spring-aware.xml</file>
+          <file>file://$MODULE_DIR$/src/resources/spring-injection.xml</file>
+          <file>file://$MODULE_DIR$/src/resources/spring-beanscope.xml</file>
+          <file>file://$MODULE_DIR$/src/resources/spring-autowiring.xml</file>
+          <file>file://$MODULE_DIR$/src/resources/spring-lifecycle.xml</file>
+          <file>file://$MODULE_DIR$/src/resources/spring-resource.xml</file>
         </fileset>
       </configuration>
     </facet>
