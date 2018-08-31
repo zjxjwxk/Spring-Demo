@@ -16,7 +16,7 @@ import test.com.imooc.base.UnitTestBase;
 public class InjectionServiceImplTest extends UnitTestBase{
 
     public InjectionServiceImplTest(){
-        super("classpath:spring-beanannotation.xml");
+        super("classpath*:spring-beanannotation.xml");
     }
 
     @Test

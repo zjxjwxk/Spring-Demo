@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b9824a3-1521-42ac-a1cb-4ce638777cb2" name="Default" comment="Spring Demo">
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/MyDriverManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/Store.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/StoreConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/StringStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/beanannotation/injection/service/InjectionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/beanannotation/injection/service/InjectionServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInvoker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInvoker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/com/imooc/beanannotation/injection/service/InjectionServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/imooc/beanannotation/injection/service/InjectionServiceImplTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,18 +26,19 @@
     <session id="-370981363">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="25" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="3" />
+          <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="6" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.15" value="2" />
           <entry key="project.open.time.2" value="3" />
+          <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="2" />
-          <entry key="project.opened" value="25" />
+          <entry key="project.opened" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -40,32 +46,37 @@
           <entry key="SpringLocalModels/module=Spring" value="1" />
           <entry key="class" value="4" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="81" />
-          <entry key="txt" value="1" />
-          <entry key="xml" value="29" />
+          <entry key="java" value="89" />
+          <entry key="properties" value="1" />
+          <entry key="txt" value="2" />
+          <entry key="xml" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="4" />
-          <entry key="JAVA" value="81" />
-          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="JAVA" value="89" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="Properties" value="1" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="29" />
+          <entry key="XML" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="124" />
+          <entry key="dummy" value="5" />
+          <entry key="java" value="911" />
+          <entry key="properties" value="120" />
           <entry key="txt" value="11" />
-          <entry key="xml" value="17" />
+          <entry key="xml" value="49" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="124" />
-          <entry key="PLAIN_TEXT" value="11" />
-          <entry key="XML" value="17" />
+          <entry key="JAVA" value="911" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="Properties" value="120" />
+          <entry key="XML" value="49" />
         </counts>
       </usages-collector>
     </session>
@@ -73,88 +84,105 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/spring-beanannotation.xml">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/Store.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="87">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/StringStore.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="261">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/BeanAnnotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/injection/service/InjectionServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="113">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+              <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
               <folding>
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#599#600#0" expanded="true" />
-                <element signature="e#647#648#0" expanded="true" />
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#192#193#0" expanded="true" />
+                <element signature="e#228#229#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInterface.java">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/StoreConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="696">
+              <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#374#382#1" expanded="true" />
+                <element signature="e#420#438#1" expanded="true" />
+                <element signature="e#476#489#1" expanded="true" />
+                <element signature="e#566#567#0" expanded="true" />
+                <element signature="e#609#610#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/config.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/config.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/config.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="58">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+              <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/spring-beanannotation.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="319">
+              <caret line="11" column="8" lean-forward="true" selection-end-line="11" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/MyDriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInvoker.java">
+        <entry file="file://$PROJECT_DIR$/src/test/com/imooc/beanannotation/javabased/StoreTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="70">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            <state relative-caret-position="-202">
+              <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+              <folding>
+                <element signature="e#381#382#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/imooc/beanannotation/BeanAnnotationTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/com/imooc/beanannotation/injection/service/InjectionServiceImplTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanImplOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanImplTwo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/imooc/beanannotation/multibean/BeanInvokerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+            <state relative-caret-position="75">
+              <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -164,9 +192,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="spring-beans.schema" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -215,10 +243,18 @@
         <option value="$PROJECT_DIR$/src/resources/spring-beanannotation.xml" />
         <option value="$PROJECT_DIR$/src/test/com/imooc/beanannotation/BeanAnnotationTest.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/beanannotation/BeanAnnotation.java" />
-        <option value="$PROJECT_DIR$/src/test/com/imooc/beanannotation/injection/service/InjectionServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/imooc/ioc/injection/service/InjectionServiceImplTest.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/beanannotation/injection/service/InjectionServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInvoker.java" />
+        <option value="$PROJECT_DIR$/src/test/com/imooc/beanannotation/injection/service/InjectionServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/Store.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/StringStore.java" />
+        <option value="$PROJECT_DIR$/src/test/com/imooc/beanannotation/javabased/StringStoreTest.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/MyDriverManager.java" />
+        <option value="$PROJECT_DIR$/src/resources/config.xml" />
+        <option value="$PROJECT_DIR$/src/test/com/imooc/beanannotation/javabased/StoreTest.java" />
+        <option value="$PROJECT_DIR$/src/resources/config.properties" />
+        <option value="$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/StoreConfig.java" />
       </list>
     </option>
   </component>
@@ -235,18 +271,20 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="804" />
-    <option name="y" value="-21" />
-    <option name="width" value="880" />
-    <option name="height" value="1038" />
+    <option name="x" value="825" />
+    <option name="y" value="-14" />
+    <option name="width" value="974" />
+    <option name="height" value="1045" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -278,7 +316,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="beanannotation" type="462c0819:PsiDirectoryNode" />
-              <item name="multibean" type="462c0819:PsiDirectoryNode" />
+              <item name="javabased" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
@@ -361,7 +399,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
               <item name="beanannotation" type="462c0819:PsiDirectoryNode" />
-              <item name="multibean" type="462c0819:PsiDirectoryNode" />
+              <item name="javabased" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
@@ -380,34 +418,26 @@
             </path>
             <path>
               <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Spring" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="imooc" type="462c0819:PsiDirectoryNode" />
-              <item name="ioc" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535639244737" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1535717493864" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/spring-beans-4.3.16.RELEASE.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -430,7 +460,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BeanInvokerTest.testSay">
+  <component name="RunManager" selected="JUnit.StoreTest.testMyDriverManager">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -439,23 +469,6 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BeanAnnotationTest.testScope" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.imooc.beanannotation.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.com.imooc.beanannotation" />
-      <option name="MAIN_CLASS_NAME" value="test.com.imooc.beanannotation.BeanAnnotationTest" />
-      <option name="METHOD_NAME" value="testScope" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -494,34 +507,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InjectionServiceImplTest.testCons" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StoreTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.com.imooc.ioc.injection.service.*" />
+          <option name="PATTERN" value="test.com.imooc.beanannotation.javabased.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.com.imooc.ioc.injection.service" />
-      <option name="MAIN_CLASS_NAME" value="test.com.imooc.ioc.injection.service.InjectionServiceImplTest" />
-      <option name="METHOD_NAME" value="testCons" />
+      <option name="PACKAGE_NAME" value="test.com.imooc.beanannotation.javabased" />
+      <option name="MAIN_CLASS_NAME" value="test.com.imooc.beanannotation.javabased.StoreTest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StoreTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.imooc.beanannotation.javabased.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.imooc.beanannotation.javabased" />
+      <option name="MAIN_CLASS_NAME" value="test.com.imooc.beanannotation.javabased.StoreTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InjectionServiceImplTest.testSetter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StoreTest.testMyDriverManager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.com.imooc.ioc.injection.service.*" />
+          <option name="PATTERN" value="test.com.imooc.beanannotation.javabased.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.com.imooc.ioc.injection.service" />
-      <option name="MAIN_CLASS_NAME" value="test.com.imooc.ioc.injection.service.InjectionServiceImplTest" />
-      <option name="METHOD_NAME" value="testSetter" />
+      <option name="PACKAGE_NAME" value="test.com.imooc.beanannotation.javabased" />
+      <option name="MAIN_CLASS_NAME" value="test.com.imooc.beanannotation.javabased.StoreTest" />
+      <option name="METHOD_NAME" value="testMyDriverManager" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -543,19 +571,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.BeanAnnotationTest.testScope" />
       <item itemvalue="JUnit.InjectionServiceImplTest.testAutowired" />
-      <item itemvalue="JUnit.InjectionServiceImplTest.testCons" />
-      <item itemvalue="JUnit.InjectionServiceImplTest.testSetter" />
       <item itemvalue="JUnit.BeanInvokerTest.testSay" />
+      <item itemvalue="JUnit.StringStoreTest.test" />
+      <item itemvalue="JUnit.StoreTest" />
+      <item itemvalue="JUnit.StoreTest.testMyDriverManager" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.BeanInvokerTest.testSay" />
+        <item itemvalue="JUnit.StoreTest.testMyDriverManager" />
+        <item itemvalue="JUnit.StringStoreTest.test" />
+        <item itemvalue="JUnit.StoreTest" />
         <item itemvalue="JUnit.InjectionServiceImplTest.testAutowired" />
-        <item itemvalue="JUnit.InjectionServiceImplTest.testSetter" />
-        <item itemvalue="JUnit.InjectionServiceImplTest.testCons" />
-        <item itemvalue="JUnit.BeanAnnotationTest.testScope" />
+        <item itemvalue="JUnit.BeanInvokerTest.testSay" />
       </list>
     </recent_temporary>
   </component>
@@ -614,6 +642,8 @@
       <workItem from="1535526845341" duration="9343000" />
       <workItem from="1535596878848" duration="3713000" />
       <workItem from="1535608309484" duration="7043000" />
+      <workItem from="1535704196290" duration="1956000" />
+      <workItem from="1535707558011" duration="5816000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Demo">
       <created>1533739607605</created>
@@ -626,39 +656,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InjectionServiceImplTest_testAutowired - 2018.08.30 at 14h 14m 39s.xml">
-      <configuration name="InjectionServiceImplTest.testAutowired" configurationId="JUnit" />
+    <history-entry file="StringStoreTest_test - 2018.08.31 at 17h 36m 11s.xml">
+      <configuration name="StringStoreTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectionServiceImplTest_testAutowired - 2018.08.30 at 14h 14m 52s.xml">
-      <configuration name="InjectionServiceImplTest.testAutowired" configurationId="JUnit" />
+    <history-entry file="StringStoreTest_test - 2018.08.31 at 17h 36m 43s.xml">
+      <configuration name="StringStoreTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectionServiceImplTest_testAutowired - 2018.08.30 at 14h 15m 04s.xml">
-      <configuration name="InjectionServiceImplTest.testAutowired" configurationId="JUnit" />
+    <history-entry file="StringStoreTest_test - 2018.08.31 at 17h 36m 57s.xml">
+      <configuration name="StringStoreTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="InjectionServiceImplTest_testAutowired - 2018.08.30 at 14h 15m 13s.xml">
-      <configuration name="InjectionServiceImplTest.testAutowired" configurationId="JUnit" />
+    <history-entry file="StringStoreTest_test - 2018.08.31 at 17h 52m 26s.xml">
+      <configuration name="StringStoreTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BeanInvokerTest_testSay - 2018.08.30 at 14h 44m 36s.xml">
-      <configuration name="BeanInvokerTest.testSay" configurationId="JUnit" />
+    <history-entry file="StringStoreTest_test - 2018.08.31 at 17h 54m 43s.xml">
+      <configuration name="StringStoreTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BeanInvokerTest_testSay - 2018.08.30 at 14h 44m 38s.xml">
-      <configuration name="BeanInvokerTest.testSay" configurationId="JUnit" />
+    <history-entry file="StoreTest - 2018.08.31 at 20h 03m 06s.xml">
+      <configuration name="StoreTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BeanInvokerTest_testSay - 2018.08.30 at 14h 48m 00s.xml">
-      <configuration name="BeanInvokerTest.testSay" configurationId="JUnit" />
+    <history-entry file="StoreTest_testMyDriverManager - 2018.08.31 at 20h 03m 23s.xml">
+      <configuration name="StoreTest.testMyDriverManager" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BeanInvokerTest_testSay - 2018.08.30 at 15h 28m 27s.xml">
-      <configuration name="BeanInvokerTest.testSay" configurationId="JUnit" />
+    <history-entry file="StoreTest_testMyDriverManager - 2018.08.31 at 20h 05m 28s.xml">
+      <configuration name="StoreTest.testMyDriverManager" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BeanInvokerTest_testSay - 2018.08.30 at 15h 28m 50s.xml">
-      <configuration name="BeanInvokerTest.testSay" configurationId="JUnit" />
+    <history-entry file="StoreTest_test - 2018.08.31 at 20h 06m 52s.xml">
+      <configuration name="StoreTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="BeanInvokerTest_testSay - 2018.08.30 at 15h 29m 19s.xml">
-      <configuration name="BeanInvokerTest.testSay" configurationId="JUnit" />
+    <history-entry file="StoreTest_testMyDriverManager - 2018.08.31 at 20h 07m 04s.xml">
+      <configuration name="StoreTest.testMyDriverManager" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123275000" />
+    <option name="totallyTimeSpent" value="131047000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -673,7 +703,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26492536" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13752665" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -682,8 +712,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676377" weight="0.35070574" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676377" weight="0.4136808" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -691,10 +721,10 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.32899022" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50323623" side_tool="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32947975" />
-      <window_info anchor="bottom" id="JRebel Executor" order="11" />
-      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.5021322" side_tool="true" weight="0.3626493" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32899022" />
+      <window_info anchor="bottom" id="JRebel Executor" order="10" />
+      <window_info anchor="bottom" id="JRebel Console" order="11" sideWeight="0.5021322" side_tool="true" weight="0.3626493" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -706,6 +736,40 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.3129103" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="JRebel" order="3" side_tool="true" />
+      <window_info id="Image Layers" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Capture Tool" order="7" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49676377" visible="true" weight="0.41776314" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32899022" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50323623" side_tool="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32947975" />
+      <window_info anchor="bottom" id="JRebel Executor" order="11" />
+      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.5021322" side_tool="true" weight="0.3626493" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
+      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -718,52 +782,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Spring Demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-context-4.3.16.RELEASE-sources.jar!/org/springframework/context/ApplicationContext.java" />
-    <entry file="jar://$USER_HOME$/.ideaLibSources/spring-context-4.3.16.RELEASE-sources.jar!/org/springframework/context/ApplicationContextAware.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/ioc/interfaces/OneInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://SpringLocalModels/module=Spring">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>SpringLocalModels</ID>
-          <OriginalElement>module=Spring</OriginalElement>
-          <nodes>
-            <node x="" y="">module=Spring</node>
-            <node x="" y="">fileset=Spring/Spring Ioc</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="113.0" y="11.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Show filesets as groups</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.16.RELEASE.jar!/org/springframework/context/support/ClassPathXmlApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/ioc/interfaces/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/imooc/bean/BeanScopeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="453">
@@ -826,9 +844,6 @@
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/config.txt">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/imooc/autowiring/AutoWiringServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1002,37 +1017,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/injection/service/InjectionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanImplOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
           <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/beanannotation/injection/service/InjectionServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/injection/service/InjectionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="113">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-          <folding>
-            <element signature="e#453#454#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#599#600#0" expanded="true" />
-            <element signature="e#647#648#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1045,15 +1040,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/com/imooc/beanannotation/multibean/BeanInvokerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
+        <state relative-caret-position="465">
+          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanImplTwo.java">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInvoker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="87">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -1064,17 +1066,94 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/spring-beanannotation.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanImplTwo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+        <state relative-caret-position="174">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInvoker.java">
+    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/beanannotation/injection/service/InjectionServiceImplTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="70">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state relative-caret-position="75">
+          <caret line="18" column="25" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/StringStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="43" selection-start-line="9" selection-start-column="43" selection-end-line="9" selection-end-column="43" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#192#193#0" expanded="true" />
+            <element signature="e#228#229#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/Store.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/config.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/MyDriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="15" lean-forward="true" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/spring-beanannotation.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="319">
+          <caret line="11" column="8" lean-forward="true" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="9" column="72" selection-start-line="9" selection-start-column="72" selection-end-line="9" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/javabased/StoreConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="696">
+          <caret line="28" column="7" lean-forward="true" selection-start-line="28" selection-start-column="7" selection-end-line="28" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#374#382#1" expanded="true" />
+            <element signature="e#420#438#1" expanded="true" />
+            <element signature="e#476#489#1" expanded="true" />
+            <element signature="e#566#567#0" expanded="true" />
+            <element signature="e#609#610#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/beanannotation/javabased/StoreTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-202">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+          <folding>
+            <element signature="e#381#382#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
