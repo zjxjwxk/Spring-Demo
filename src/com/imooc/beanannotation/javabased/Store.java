@@ -1,5 +1,5 @@
 package com.imooc.beanannotation.javabased;
 
-public interface Store {
+public interface Store<T> {
 
 }
