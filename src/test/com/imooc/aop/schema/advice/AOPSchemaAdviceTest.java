@@ -2,8 +2,6 @@ package test.com.imooc.aop.schema.advice;
 
 import com.imooc.aop.schema.advice.biz.AspectBiz;
 import org.junit.Test;
-import org.junit.Before; 
-import org.junit.After;
 import test.com.imooc.base.UnitTestBase;
 
 /** 
@@ -19,17 +17,23 @@ public class AOPSchemaAdviceTest extends UnitTestBase {
         super("classpath:spring-aop-schema-advice.xml");
     }
 
-/**
-* 
-* Method: before() 
-* 
-*/ 
-@Test
-public void testBiz() throws Exception {
-//TODO: Test goes here...
-    AspectBiz biz = super.getBean("aspectBiz");
-    biz.biz();
-} 
+    /**
+    *
+    * Method: before()
+    *
+    */
+    @Test
+    public void testBiz() throws Exception {
+    //TODO: Test goes here...
+        AspectBiz biz = super.getBean("aspectBiz");
+        biz.biz();
+    }
+
+    @Test
+    public void testInit() {
+        AspectBiz biz = super.getBean("aspectBiz");
+        biz.init("moocService", 3);
+    }
 
 
 } 
