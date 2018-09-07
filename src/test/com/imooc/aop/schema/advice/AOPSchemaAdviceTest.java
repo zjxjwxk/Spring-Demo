@@ -1,5 +1,6 @@
 package test.com.imooc.aop.schema.advice; 
 
+import com.imooc.aop.schema.advice.Fit;
 import com.imooc.aop.schema.advice.biz.AspectBiz;
 import org.junit.Test;
 import test.com.imooc.base.UnitTestBase;
@@ -17,11 +18,6 @@ public class AOPSchemaAdviceTest extends UnitTestBase {
         super("classpath:spring-aop-schema-advice.xml");
     }
 
-    /**
-    *
-    * Method: before()
-    *
-    */
     @Test
     public void testBiz() throws Exception {
     //TODO: Test goes here...
@@ -35,5 +31,10 @@ public class AOPSchemaAdviceTest extends UnitTestBase {
         biz.init("moocService", 3);
     }
 
+    @Test
+    public void testFit() {
+        Fit fit = super.getBean("aspectBiz");
+        fit.filter();
+    }
 
 } 
