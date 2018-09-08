@@ -5,16 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2b9824a3-1521-42ac-a1cb-4ce638777cb2" name="Default" comment="Spring Demo">
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/schema/advice/Fit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/schema/advice/FitImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/schema/advisors/ConcurrentOperationExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/schema/advisors/service/InvokeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/resources/spring-aop-schema-advisors.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/com/imooc/aop/schema/advisors/AOPSchemaAdviceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/api/BizLogic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/api/BizLogicImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/api/MoocAfterReturningAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/api/MoocBeforeAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/api/MoocMethodInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/api/MoocThrowsAdvice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/api/introduction/LockMixin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/api/introduction/LockMixinAdvisor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/imooc/aop/api/introduction/Lockable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/resources/spring-aop-api.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_16_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Spring_4_3_16_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Spring.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Spring.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/spring-aop-schema-advice.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/spring-aop-schema-advice.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/com/imooc/aop/schema/advice/AOPSchemaAdviceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/com/imooc/aop/schema/advice/AOPSchemaAdviceTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -41,7 +44,7 @@
     <session id="-370981363">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="35" />
+          <entry key="project.closed" value="36" />
           <entry key="project.open.time.1" value="3" />
           <entry key="project.open.time.10" value="4" />
           <entry key="project.open.time.11" value="4" />
@@ -52,49 +55,51 @@
           <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="4" />
-          <entry key="project.open.time.8" value="4" />
+          <entry key="project.open.time.8" value="5" />
           <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="37" />
+          <entry key="project.opened" value="38" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="SpringLocalModels/module=Spring" value="1" />
-          <entry key="class" value="11" />
+          <entry key="class" value="14" />
           <entry key="gitignore" value="1" />
-          <entry key="java" value="108" />
+          <entry key="java" value="126" />
           <entry key="properties" value="1" />
           <entry key="txt" value="2" />
-          <entry key="xml" value="34" />
+          <entry key="xml" value="41" />
           <entry key="xsd" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="11" />
-          <entry key="JAVA" value="108" />
+          <entry key="CLASS" value="14" />
+          <entry key="JAVA" value="126" />
           <entry key="PLAIN_TEXT" value="3" />
           <entry key="Properties" value="1" />
           <entry key="UML" value="1" />
-          <entry key="XML" value="35" />
+          <entry key="XML" value="42" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="20" />
-          <entry key="java" value="2559" />
+          <entry key="dummy" value="30" />
+          <entry key="ft" value="2" />
+          <entry key="java" value="3306" />
           <entry key="properties" value="120" />
           <entry key="txt" value="11" />
-          <entry key="xml" value="567" />
+          <entry key="xml" value="922" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2559" />
-          <entry key="PLAIN_TEXT" value="31" />
+          <entry key="JAVA" value="3306" />
+          <entry key="PLAIN_TEXT" value="41" />
           <entry key="Pointcut Expression" value="1" />
           <entry key="Properties" value="120" />
-          <entry key="XML" value="566" />
+          <entry key="VTL" value="2" />
+          <entry key="XML" value="921" />
         </counts>
       </usages-collector>
     </session>
@@ -104,8 +109,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/spring-aop-schema-advice.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
+            <state relative-caret-position="57">
+              <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="19" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -114,80 +119,63 @@
         <entry file="file://$PROJECT_DIR$/src/resources/spring-aop-schema-advisors.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
-              <caret line="12" column="91" lean-forward="true" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
+              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advisors/service/InvokeService.java">
+        <entry file="file://$PROJECT_DIR$/src/resources/spring-aop-api.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
-                <element signature="e#322#323#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-208">
+              <caret line="52" column="44" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advisors/ConcurrentOperationExecutor.java">
+        <entry file="file://$PROJECT_DIR$/src/test/com/imooc/aop/schema/advice/AOPSchemaAdviceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="538">
+              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#437#438#0" expanded="true" />
-                <element signature="e#481#482#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-                <element signature="e#543#544#0" expanded="true" />
-                <element signature="e#582#583#0" expanded="true" />
-                <element signature="e#616#617#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advice/Fit.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="4" column="9" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advice/FitImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding>
-                <element signature="e#116#117#0" expanded="true" />
-                <element signature="e#152#153#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advice/MoocAspect.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/com/imooc/aop/schema/advisors/AOPSchemaAdviceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/BizLogicImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="232">
-              <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+              <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/com/imooc/aop/api/AOPAPITest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="874">
+              <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#324#325#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/MoocThrowsAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="33">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -195,11 +183,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advice/biz/AspectBiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="58">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="116">
+              <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
               <folding>
                 <element signature="e#233#234#0" expanded="true" />
                 <element signature="e#311#312#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/MoocAfterReturningAdvice.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/MoocMethodInterceptor.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="145">
+              <caret line="5" column="63" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -210,8 +222,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="spring-beans.schema" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -222,23 +234,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanImplTwo.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanImplOne.java" />
-        <option value="$PROJECT_DIR$/src/test/com/imooc/beanannotation/multibean/BeanInvokerTest.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/ioc/injection/dao/InjectionDAOImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/ioc/interfaces/OneInterface.java" />
-        <option value="$PROJECT_DIR$/src/resources/spring-ioc.xml" />
-        <option value="$PROJECT_DIR$/src/com/imooc/ioc/interfaces/Main.java" />
-        <option value="$PROJECT_DIR$/src/resources/spring-injection.xml" />
-        <option value="$PROJECT_DIR$/src/com/imooc/ioc/injection/service/InjectionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/resources/spring-beanscope.xml" />
-        <option value="$PROJECT_DIR$/src/test/com/imooc/bean/BeanScopeTest.java" />
-        <option value="$PROJECT_DIR$/src/resources/spring-lifecycle.xml" />
-        <option value="$PROJECT_DIR$/src/com/imooc/lifecycle/BeanLifeCycle.java" />
-        <option value="$PROJECT_DIR$/src/test/com/imooc/aware/MoocApplicationContextTest.java" />
-        <option value="$PROJECT_DIR$/src/com/imooc/aware/MoocApplicationContext.java" />
-        <option value="$PROJECT_DIR$/src/resources/spring-aware.xml" />
-        <option value="$PROJECT_DIR$/src/com/imooc/autowiring/AutoWiringService.java" />
         <option value="$PROJECT_DIR$/src/resources/spring-autowiring.xml" />
         <option value="$PROJECT_DIR$/src/com/imooc/resource/MoocResource.java" />
         <option value="$PROJECT_DIR$/src/test/com/imooc/resource/MoocResourceTest.java" />
@@ -266,13 +261,30 @@
         <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/advice/MoocAspect.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/advice/Fit.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/advice/FitImpl.java" />
-        <option value="$PROJECT_DIR$/src/resources/spring-aop-schema-advice.xml" />
         <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/advisors/concurrentOperationExecutor.java" />
         <option value="$PROJECT_DIR$/src/resources/spring-aop-schema-advisors.xml" />
         <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/advisors/service/InvokeService.java" />
         <option value="$PROJECT_DIR$/src/test/com/imooc/aop/schema/advice/AOPSchemaAdviceTest.java" />
         <option value="$PROJECT_DIR$/src/test/com/imooc/aop/schema/advisors/AOPSchemaAdviceTest.java" />
         <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/advisors/ConcurrentOperationExecutor.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/api/BizLogic.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/api/BizLogicImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/api/MoocBeforeAdvice.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/api/MoocThrowAdvice.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/api/MoocAfterReturningAdvice.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/api/MoocMethodInterceptor.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/api/introduction/Lockable.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/schema/api/introduction/LockMixin.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/api/introduction/LockMixinAdvisor.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/api/introduction/LockMixin.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/api/MoocThrowAdvice.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/api/MoocThrowsAdvice.java" />
+        <option value="$PROJECT_DIR$/src/test/com/imooc/aop/api/BizLogicImplTest.java" />
+        <option value="$PROJECT_DIR$/src/test/com/imooc/aop/api/AOPAPITest.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/api/MoocAfterReturningAdvice.java" />
+        <option value="$PROJECT_DIR$/src/com/imooc/aop/api/BizLogicImpl.java" />
+        <option value="$PROJECT_DIR$/src/resources/spring-aop-api.xml" />
+        <option value="$PROJECT_DIR$/src/resources/spring-aop-schema-advice.xml" />
       </list>
     </option>
   </component>
@@ -289,8 +301,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="926" />
+    <option name="y" value="-16" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -302,7 +314,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -331,6 +344,22 @@
               <item name="Spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
               <item name="schema" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -338,8 +367,19 @@
               <item name="Spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
               <item name="schema" type="462c0819:PsiDirectoryNode" />
-              <item name="advisors" type="462c0819:PsiDirectoryNode" />
+              <item name="advice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="schema" type="462c0819:PsiDirectoryNode" />
+              <item name="advice" type="462c0819:PsiDirectoryNode" />
+              <item name="biz" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
@@ -358,6 +398,22 @@
               <item name="Spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Spring" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Spring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
               <item name="schema" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -365,6 +421,7 @@
               <item name="Spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
               <item name="schema" type="462c0819:PsiDirectoryNode" />
               <item name="advice" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -373,6 +430,7 @@
               <item name="Spring" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="imooc" type="462c0819:PsiDirectoryNode" />
+              <item name="aop" type="462c0819:PsiDirectoryNode" />
               <item name="schema" type="462c0819:PsiDirectoryNode" />
               <item name="advisors" type="462c0819:PsiDirectoryNode" />
             </path>
@@ -384,21 +442,20 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="store&#9;FILE&#9;file://D:/Documents/IdeaProjects/Spring/src/com/imooc/beanannotation/javabased/Store.java&#10;StoreC&#9;FILE&#9;file://D:/Documents/IdeaProjects/Spring/src/com/imooc/beanannotation/javabased/StoreConfig.java&#10;stringS&#9;PSI&#9;JAVA://com.imooc.beanannotation.javabased.StringStore&#10;stringstore&#9;FILE&#9;file://D:/Documents/IdeaProjects/Spring/src/com/imooc/beanannotation/javabased/StringStore.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536322041714" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/aspectjweaver-1.9.1.jar!/" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1536418206619" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/spring-aop-4.3.16.RELEASE.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -425,7 +482,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AOPSchemaAdviceTest.testSave">
+  <component name="RunManager" selected="JUnit.AOPSchemaAdviceTest.testInit">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -438,16 +495,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AOPSchemaAdviceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AOPAPITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Spring" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="test.com.imooc.aop.schema.advice.*" />
+          <option name="PATTERN" value="test.com.imooc.aop.api.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="test.com.imooc.aop.schema.advice" />
-      <option name="MAIN_CLASS_NAME" value="test.com.imooc.aop.schema.advice.AOPSchemaAdviceTest" />
+      <option name="PACKAGE_NAME" value="test.com.imooc.aop.api" />
+      <option name="MAIN_CLASS_NAME" value="test.com.imooc.aop.api.AOPAPITest" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AOPAPITest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Spring" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.com.imooc.aop.api.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.com.imooc.aop.api" />
+      <option name="MAIN_CLASS_NAME" value="test.com.imooc.aop.api.AOPAPITest" />
+      <option name="METHOD_NAME" value="testSave" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -504,23 +578,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AOPSchemaAdviceTest.testSave" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Spring" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.com.imooc.aop.schema.advisors.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.com.imooc.aop.schema.advisors" />
-      <option name="MAIN_CLASS_NAME" value="test.com.imooc.aop.schema.advisors.AOPSchemaAdviceTest" />
-      <option name="METHOD_NAME" value="testSave" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -536,19 +593,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="JUnit.AOPAPITest.testSave" />
+      <item itemvalue="JUnit.AOPAPITest" />
       <item itemvalue="JUnit.AOPSchemaAdviceTest.testBiz" />
-      <item itemvalue="JUnit.AOPSchemaAdviceTest" />
       <item itemvalue="JUnit.AOPSchemaAdviceTest.testInit" />
       <item itemvalue="JUnit.AOPSchemaAdviceTest.testFit" />
-      <item itemvalue="JUnit.AOPSchemaAdviceTest.testSave" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AOPSchemaAdviceTest.testSave" />
-        <item itemvalue="JUnit.AOPSchemaAdviceTest.testFit" />
         <item itemvalue="JUnit.AOPSchemaAdviceTest.testInit" />
+        <item itemvalue="JUnit.AOPSchemaAdviceTest.testFit" />
         <item itemvalue="JUnit.AOPSchemaAdviceTest.testBiz" />
-        <item itemvalue="JUnit.AOPSchemaAdviceTest" />
+        <item itemvalue="JUnit.AOPAPITest" />
+        <item itemvalue="JUnit.AOPAPITest.testSave" />
       </list>
     </recent_temporary>
   </component>
@@ -619,6 +676,7 @@
       <workItem from="1536211417082" duration="3715000" />
       <workItem from="1536217870780" duration="3686000" />
       <workItem from="1536287686979" duration="7530000" />
+      <workItem from="1536373479478" duration="21047000" />
     </task>
     <task id="LOCAL-00001" summary="Spring Demo">
       <created>1533739607605</created>
@@ -631,39 +689,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AOPSchemaAdviceTest_testBiz - 2018.09.06 at 15h 46m 44s.xml">
+    <history-entry file="AOPAPITest_testSave - 2018.09.08 at 21h 45m 23s.xml">
+      <configuration name="AOPAPITest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPAPITest_testSave - 2018.09.08 at 21h 49m 19s.xml">
+      <configuration name="AOPAPITest.testSave" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPAPITest - 2018.09.08 at 22h 06m 37s.xml">
+      <configuration name="AOPAPITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPAPITest - 2018.09.08 at 22h 21m 56s.xml">
+      <configuration name="AOPAPITest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPSchemaAdviceTest_testBiz - 2018.09.08 at 22h 46m 49s.xml">
       <configuration name="AOPSchemaAdviceTest.testBiz" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPSchemaAdviceTest_testInit - 2018.09.06 at 18h 05m 13s.xml">
+    <history-entry file="AOPSchemaAdviceTest_testBiz - 2018.09.08 at 22h 48m 18s.xml">
+      <configuration name="AOPSchemaAdviceTest.testBiz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPSchemaAdviceTest_testBiz - 2018.09.08 at 22h 49m 02s.xml">
+      <configuration name="AOPSchemaAdviceTest.testBiz" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AOPSchemaAdviceTest_testInit - 2018.09.08 at 22h 49m 24s.xml">
       <configuration name="AOPSchemaAdviceTest.testInit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPSchemaAdviceTest_testInit - 2018.09.06 at 18h 09m 26s.xml">
-      <configuration name="AOPSchemaAdviceTest.testInit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AOPSchemaAdviceTest_testInit - 2018.09.06 at 18h 12m 40s.xml">
-      <configuration name="AOPSchemaAdviceTest.testInit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AOPSchemaAdviceTest_testInit - 2018.09.06 at 18h 15m 50s.xml">
-      <configuration name="AOPSchemaAdviceTest.testInit" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AOPSchemaAdviceTest_testFit - 2018.09.07 at 14h 15m 20s.xml">
+    <history-entry file="AOPSchemaAdviceTest_testFit - 2018.09.08 at 22h 49m 42s.xml">
       <configuration name="AOPSchemaAdviceTest.testFit" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AOPSchemaAdviceTest_testSave - 2018.09.07 at 19h 01m 55s.xml">
-      <configuration name="AOPSchemaAdviceTest.testSave" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AOPSchemaAdviceTest_testSave - 2018.09.07 at 19h 02m 26s.xml">
-      <configuration name="AOPSchemaAdviceTest.testSave" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AOPSchemaAdviceTest_testSave - 2018.09.07 at 19h 06m 24s.xml">
-      <configuration name="AOPSchemaAdviceTest.testSave" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="AOPSchemaAdviceTest_testSave - 2018.09.07 at 19h 06m 37s.xml">
-      <configuration name="AOPSchemaAdviceTest.testSave" configurationId="JUnit" />
+    <history-entry file="AOPSchemaAdviceTest_testInit - 2018.09.08 at 22h 50m 08s.xml">
+      <configuration name="AOPSchemaAdviceTest.testInit" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="165502000" />
+    <option name="totallyTimeSpent" value="186549000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -678,7 +736,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19722815" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3576759" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -688,7 +746,7 @@
       <window_info id="Capture Tool" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676377" weight="0.43213898" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49676377" weight="0.37459284" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -711,40 +769,6 @@
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
     </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.3129103" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49676377" visible="true" weight="0.41776314" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3995657" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32899022" />
-      <window_info anchor="bottom" id="Spring" order="7" weight="0.32899022" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50323623" side_tool="true" weight="0.3286334" />
-      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32947975" />
-      <window_info anchor="bottom" id="JRebel Executor" order="11" />
-      <window_info anchor="bottom" id="JRebel Console" order="12" sideWeight="0.5021322" side_tool="true" weight="0.3626493" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
-      <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Palette&#9;" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -757,118 +781,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Spring Demo" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/resources/spring-lifecycle.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/spring-beanscope.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/ioc/injection/dao/InjectionDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/ioc/injection/service/InjectionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/spring-injection.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="75" lean-forward="true" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/spring-ioc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/ioc/injection/service/InjectionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/ioc/injection/dao/InjectionDAOImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/ioc/injection/service/InjectionServiceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="36" column="17" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/ioc/interfaces/OneInterfaceImplTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="27" column="3" selection-start-line="27" selection-start-column="3" selection-end-line="27" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/injection/service/InjectionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanImplOne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/beanannotation/BeanAnnotationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="36" column="36" selection-start-line="36" selection-start-column="36" selection-end-line="36" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/beanannotation/multibean/BeanInvokerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="26" column="5" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInvoker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/multibean/BeanInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/beanannotation/BeanAnnotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="203">
@@ -1030,48 +942,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advice/biz/AspectBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#311#312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/spring-aop-schema-advice.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="23" column="46" lean-forward="true" selection-start-line="23" selection-start-column="46" selection-end-line="23" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/spring-context-4.3.16.RELEASE.jar!/org/springframework/stereotype/Service.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
           <caret line="17" column="18" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/spring-aop-schema-advisors.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="12" column="91" lean-forward="true" selection-start-line="12" selection-start-column="91" selection-end-line="12" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advisors/service/InvokeService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="290">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#386#387#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1082,6 +956,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advice/FitImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advice/Fit.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -1089,40 +974,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/aop/schema/advice/AOPSchemaAdviceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#357#358#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advice/FitImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#152#153#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/aop/schema/advisors/AOPSchemaAdviceTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advisors/ConcurrentOperationExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="436">
-          <caret line="33" column="37" lean-forward="true" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="350">
+          <caret line="30" column="26" lean-forward="true" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#437#438#0" expanded="true" />
@@ -1131,6 +986,201 @@
             <element signature="e#543#544#0" expanded="true" />
             <element signature="e#582#583#0" expanded="true" />
             <element signature="e#616#617#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advisors/service/InvokeService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="10" column="4" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/aop/schema/advisors/AOPSchemaAdviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="53" selection-end-line="23" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop-4.3.16.RELEASE.jar!/org/springframework/aop/AfterReturningAdvice.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/spring-aop-4.3.16.RELEASE.jar!/org/springframework/aop/support/DelegatingIntroductionInterceptor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/introduction/Lockable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/aop/api/BizLogicImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/MoocBeforeAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/introduction/LockMixin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#413#414#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/introduction/LockMixinAdvisor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="29">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <element signature="e#279#280#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/BizLogic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/MoocThrowsAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/MoocMethodInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="63" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Spring/resources/spring-aware.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/production/Spring/com/imooc/aop/schema/advisors/ConcurrentOperationExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-343">
+          <folding>
+            <element signature="e#0#1305#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/aop/api/AOPAPITest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="874">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#324#325#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/MoocAfterReturningAdvice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/schema/advice/biz/AspectBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding>
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/imooc/aop/api/BizLogicImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/spring-aop-api.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208">
+          <caret line="52" column="44" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/spring-aop-schema-advisors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/spring-aop-schema-advice.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="11" column="12" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="19" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/com/imooc/aop/schema/advice/AOPSchemaAdviceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
